@@ -1,0 +1,93 @@
+.pies:hover {
+  opacity: .6;
+	cursor: pointer;
+}
+.pies.selected {
+  opacity: .6;
+}
+path {
+  stroke: white;
+}
+text {
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+.text {
+  font-size: 10px;
+  text-transform: capitalize;
+}
+#container {
+  border: 2px solid #000;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #d5f4ff;
+}
+.hidden {
+  display: none;
+}
+div.tooltip {
+  color: #222;
+  background: #fff;
+  padding: .5em;
+  text-shadow: #f5f5f5 0 1px 0;
+  border-radius: 2px;
+  box-shadow: 0 0 2px 0 #a6a6a6;
+  opacity: 0.9;
+  position: absolute;
+}
+div.tooltip:hover {
+	display: none;
+}
+h4, h5 {
+  margin-top: 20px;
+	margin-bottom: 0;
+	color: #222;
+}
+textarea {
+	resize: none;
+}
+.label-year {
+	margin-top: 9px;
+}
+#help {
+	background: #fff none repeat scroll 0 0;
+	font-family: 'Open Sans', sans-serif;
+	border: 1px solid #e1e1e1;
+	border-radius: 4px;
+	overflow-wrap: break-word;
+	padding: 6px 15px;
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+#help i {
+	font-weight: 600;
+	line-height: 30px;
+}
+#help i:last-of-type {
+	line-height: initial;
+}
+.small {
+	font-size: 12px;
+	margin-bottom: 40px;
+}
+.open-sans {
+	font-family: 'Open Sans', sans-serif;
+}
+#legend {
+	margin: 10px 0 0 0;
+}
+#legend button {
+	padding: 0 18px;
+	color: white;
+	font-size: 16px;
+}
+.legendItem {
+	margin-bottom: 7px;
+	display: inline-flex;
+	width: 100%;
+}
+.legendItem span {
+	line-height: 13px;
+	margin-left: 10px;
+	margin-top: 13px;
+}
